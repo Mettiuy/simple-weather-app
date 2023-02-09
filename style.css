@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+  background-image: url("img1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#citiesName {
+  position: relative;
+  padding: 12px;
+  top: 20px;
+  border-radius: 9px;
+  border: none;
+  background: transparent;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  transition: 0.4s all;
+}
+#citiesName:focus {
+  outline: none;
+  border-color: red;
+}
+#submit {
+  position: relative;
+  padding: 12px;
+  top: 20px;
+  border-radius: 9px;
+  border: none;
+  background: transparent;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  cursor: pointer;
+}
+#submit:hover {
+  border-color: red;
+}
+.container {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.639);
+  margin-top: 80px;
+  width: 500px;
+  height: 340px;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 20px;
+  box-shadow: 0 0.125px 3px;
+  z-index: 2;
+}
+.temp {
+  position: absolute;
+  left: 20px;
+  top: 90px;
+}
+.dec {
+  position: absolute;
+  left: 20px;
+  top: 150px;
+}
+.wind {
+  position: absolute;
+  left: 20px;
+  top: 210px;
+  z-index: 2;
+}
+#Imgs {
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+/* خدایا شکرت */
