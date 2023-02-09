@@ -2,7 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 body {
   background-image: url("img1.jpg");
@@ -16,13 +17,12 @@ body {
   border-radius: 9px;
   border: none;
   background: transparent;
-  border-right: 2px solid white;
-  border-left: 2px solid white;
+  border: 2px solid rgb(65, 56, 192);
   transition: 0.4s all;
 }
 #citiesName:focus {
   outline: none;
-  border-color: red;
+  border-color: white;
 }
 #submit {
   position: relative;
@@ -31,12 +31,14 @@ body {
   border-radius: 9px;
   border: none;
   background: transparent;
-  border-right: 2px solid white;
-  border-left: 2px solid white;
+  border-right: 2px solid rgb(65, 56, 192);
+  border-left: 2px solid rgb(65, 56, 192);
   cursor: pointer;
+  transition: 0.4s;
 }
 #submit:hover {
-  border-color: red;
+  border-color: white;
+  color: white;
 }
 .container {
   position: relative;
